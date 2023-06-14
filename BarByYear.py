@@ -5,13 +5,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Detect the encoding of the file
-with open('u2010m.csv', 'rb') as file:
+with open('u2010im.csv', 'rb') as file:
     result = chardet.detect(file.read())
 
 # Read the file with the detected encoding
-data = pd.read_csv('u2010m.csv', encoding=result['encoding'])
+data = pd.read_csv('u2010im.csv', encoding=result['encoding'])
 data1 = data
-
 year = []
 total = []
 for i, j in data1.groupby('Imports from Country (Unit : US$ Thousand)')['總計'].sum().iteritems():
