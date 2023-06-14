@@ -15,4 +15,5 @@
 -----  
 ## Pie chart, dividing the import rate based on continents  
 ###### Further explanation will be given by Vale  
-![ImportByContinent](https://github.com/Zocke07/Big-Data-Programming-Final/assets/91361456/4d046129-5598-46f6-8fb7-24a9436b743f)
+![ImportByContinent](https://github.com/Zocke07/Big-Data-Programming-Final/assets/91361456/4d046129-5598-46f6-8fb7-24a9436b743f)  
+##### The code for it: https://github.com/Zocke07/Big-Data-Programming-Final/blob/main/ImportByContinent.py
