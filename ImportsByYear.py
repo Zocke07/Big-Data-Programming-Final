@@ -9,11 +9,13 @@ data = pd.read_csv('u2010im.csv', encoding=result['encoding'])
 data1 = data
 year = []
 total = []
+print("Year", " ", "Imports from Country (Unit : US$ Thousand)")
 for i, j in data1.groupby('Imports from Country (Unit : US$ Thousand)')['總計'].sum().iteritems():
     if '月' in i:
         continue
     year.append(i)
     total.append(j)
+    print(i, j)
 
 fig, ax = plt.subplots(figsize=(10, 6))
 ax.bar(year, total)
