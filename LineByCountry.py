@@ -31,6 +31,26 @@ theValues = []
 for n in range(10):
     topCountries.append(sorted_list[n][0])
     theValues.append(sorted_list[n][1])
+    
+def htmlTable():
+    theTable = '<table border = 1>\n'
+    theTable += '<tr>\n'
+    theTable += '<td>Countries</td>\n'
+    theTable += '<td>Imports from Country</td>\n'
+    theTable += '</tr>\n'
+    for row in range(len(topCountries)):
+        theTable += '<tr>\n'
+        theTable += f'<td>{topCountries[row]}</td>\n'
+        theTable += f'<td>{theValues[row]}</td>\n'
+        theTable += '</tr>\n'
+    theTable += '</table>'
+    return theTable
+
+tableResult = htmlTable()
+
+f = open("TableByCountry.html", "w", encoding='utf-8')
+f.write(tableResult)
+f.close()
 
 fig, ax = plt.subplots(figsize=(10, 6))
 plt.title("Import Trade Value")
