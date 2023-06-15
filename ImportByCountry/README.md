@@ -1,5 +1,6 @@
 ### Top 10 Import By Country
-#### For the full code, you can see here: https://github.com/Zocke07/Big-Data-Programming-Final/blob/main/ImportByCountry/ImportByCountry.py  
+#### For the full code, you can see here: https://github.com/Zocke07/Big-Data-Programming-Final/blob/main/ImportByCountry/ImportByCountry.py 
+###### The specific html code that has been made to make the table: https://github.com/Zocke07/Big-Data-Programming-Final/blob/main/ImportByCountry/TableByCountry.html   
 Here are the brief explanations of the code:  
 ```
 import chardet
@@ -91,4 +92,10 @@ The plot title, x-axis label, and y-axis label are set using plt.title(), plt.xl
 The ax.set_xticklabels() function sets the x-axis tick labels to be the values from the topCountries list.  
 The ax.ticklabel_format() function is used to format the y-axis tick labels to be displayed in plain style (without scientific notation).  
 Finally, a line plot is created using plt.plot() with topCountries as the x-values and theValues as the y-values. The plot is displayed using plt.show().  
-Note: The code generates an HTML table and a line plot based on the top 10 countries with the highest import values.  
+
+-----
+### Picture of Result
+#### HTML-style presentation
+![HtmlByCountry](https://github.com/Zocke07/Big-Data-Programming-Final/assets/91361456/8a641f0e-7685-4434-aef9-0e88d1296fe4)
+#### Line graph-style presentation
+![LineByCountry](https://github.com/Zocke07/Big-Data-Programming-Final/assets/91361456/e8efce1d-460c-4086-a3f7-9b9d9f652106)
