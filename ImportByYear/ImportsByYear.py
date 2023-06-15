@@ -5,6 +5,9 @@ import matplotlib.pyplot as plt
 with open('u2010im.csv', 'rb') as file:
     result = chardet.detect(file.read())
 
+plt.rcParams["font.sans-serif"] = "DFKai-SB"
+plt.rcParams["axes.unicode_minus"] = False
+
 data = pd.read_csv('u2010im.csv', encoding=result['encoding'])
 data1 = data
 year = []
