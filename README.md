@@ -1,8 +1,5 @@
 ## Dividing the Imports based on years
-#### Text style presentation  
-![TextByYear](https://github.com/Zocke07/Big-Data-Programming-Final/assets/91361456/a00c1b75-9f49-45c7-8156-9f2427a83487)
-#### Bar style presentation  
-![BarByYear](https://github.com/Zocke07/Big-Data-Programming-Final/assets/91361456/1cfdd90e-9aae-4b09-ba9e-d596c3d44687)
+#### We're presenting it in text-style presentation and a bar graph-style presentation.
 ##### The code for both of them: https://github.com/Zocke07/Big-Data-Programming-Final/tree/main/ImportByYear  
 -----  
 ## Dividing the Imports based on countries 
