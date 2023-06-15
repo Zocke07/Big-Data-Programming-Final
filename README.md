@@ -3,12 +3,8 @@
 ##### The code for both of them: https://github.com/Zocke07/Big-Data-Programming-Final/tree/main/ImportByYear  
 -----  
 ## Dividing the Imports based on countries 
-#### HTML style presentation  
-![HtmlByCountry](https://github.com/Zocke07/Big-Data-Programming-Final/assets/91361456/df081f9e-4288-4acd-a940-f004802eb8f5)
-###### The code for the html specifically: https://github.com/Zocke07/Big-Data-Programming-Final/blob/main/TableByCountry.html
-#### Line style presentation  
-![LineByCountry](https://github.com/Zocke07/Big-Data-Programming-Final/assets/91361456/0d7da62a-98b9-42a7-9dde-0ebe94e10138)
-##### The code for both of them (included in the python code for the creating of html table): https://github.com/Zocke07/Big-Data-Programming-Final/blob/main/LineByCountry.py
+#### We're presenting it in text-style presentation and a bar graph-style presentation.
+###### The code for both of them: https://github.com/Zocke07/Big-Data-Programming-Final/tree/main/ImportByCountry  
 -----  
 ## Pie chart, dividing the import rate based on continents  
 ##### Note:  
