@@ -1,4 +1,4 @@
-### Import By Year
+## Import By Year
 #### For the full code, you can see here: https://github.com/Zocke07/Big-Data-Programming-Final/blob/main/ImportByYear/ImportsByYear.py
 Here are the brief explanations of the code: 
 ```
@@ -52,3 +52,10 @@ The ax.set_xticklabels() function sets the x-axis tick labels to be the values f
 The ax.ticklabel_format() function is used to format the y-axis tick labels to be displayed in plain style (without scientific notation).  
 Finally, the plot title, x-axis label, and y-axis label are set using plt.title(), plt.xlabel(), and plt.ylabel() respectively.  
 The plot is displayed using plt.show().  
+
+-----  
+### Picture of Result  
+#### Text-style presentation  
+![TextByYear](https://github.com/Zocke07/Big-Data-Programming-Final/assets/91361456/e0874f43-c7bb-4640-a108-ff9fbe058f47)
+#### Bar graph-style presentation
+![BarByYear](https://github.com/Zocke07/Big-Data-Programming-Final/assets/91361456/a42a69fa-cf81-4c57-9c79-f275258908e7)
