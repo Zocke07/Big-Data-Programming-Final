@@ -11,7 +11,12 @@ The code imports the necessary libraries: chardet for character encoding detecti
 with open('u2010im.csv', 'rb') as file:
     result = chardet.detect(file.read())
 ```
-This block of code opens the file 'u2010im.csv' in binary mode ('rb'). It then reads the file contents and uses the chardet.detect() function to detect the character encoding of the file. The detected encoding is stored in the result variable.  
+This block of code opens the file 'u2010im.csv' in binary mode ('rb'). It then reads the file contents and uses the chardet.detect() function to detect the character encoding of the file. The detected encoding is stored in the result variable. 
+```
+plt.rcParams["font.sans-serif"] = "DFKai-SB"
+plt.rcParams["axes.unicode_minus"] = False
+```
+These two lines of code are used to configure the font settings and ensure proper rendering of Chinese characters and minus signs in matplotlib plots.  
 ```
 data = pd.read_csv('u2010im.csv', encoding=result['encoding'])
 data1 = data
